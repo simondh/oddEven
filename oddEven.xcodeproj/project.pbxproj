@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41575241AA7982D007698E3 /* oddEvenSort.cl in Sources */ = {isa = PBXBuildFile; fileRef = F41575231AA7982D007698E3 /* oddEvenSort.cl */; };
+		F41575271AA79CFF007698E3 /* oddEvenSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F41575251AA79CFF007698E3 /* oddEvenSort.cpp */; };
+		F482FE261AA7572600008E79 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F482FE251AA7572600008E79 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4A57F4B1AA7562C00CD8713 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F41575231AA7982D007698E3 /* oddEvenSort.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = oddEvenSort.cl; sourceTree = SOURCE_ROOT; };
+		F41575251AA79CFF007698E3 /* oddEvenSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = oddEvenSort.cpp; sourceTree = SOURCE_ROOT; };
+		F41575261AA79CFF007698E3 /* oddEvenSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oddEvenSort.h; sourceTree = SOURCE_ROOT; };
+		F482FE251AA7572600008E79 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		F4A57F4D1AA7562C00CD8713 /* oddEven */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oddEven; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A57F4A1AA7562C00CD8713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A57F441AA7562C00CD8713 = {
+			isa = PBXGroup;
+			children = (
+				F4A57F4F1AA7562C00CD8713 /* oddEven */,
+				F4A57F4E1AA7562C00CD8713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A57F4E1AA7562C00CD8713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A57F4D1AA7562C00CD8713 /* oddEven */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A57F4F1AA7562C00CD8713 /* oddEven */ = {
+			isa = PBXGroup;
+			children = (
+				F482FE251AA7572600008E79 /* main.cpp */,
+				F41575231AA7982D007698E3 /* oddEvenSort.cl */,
+				F41575251AA79CFF007698E3 /* oddEvenSort.cpp */,
+				F41575261AA79CFF007698E3 /* oddEvenSort.h */,
+			);
+			path = oddEven;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A57F4C1AA7562C00CD8713 /* oddEven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A57F541AA7562C00CD8713 /* Build configuration list for PBXNativeTarget "oddEven" */;
+			buildPhases = (
+				F4A57F491AA7562C00CD8713 /* Sources */,
+				F4A57F4A1AA7562C00CD8713 /* Frameworks */,
+				F4A57F4B1AA7562C00CD8713 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oddEven;
+			productName = oddEven;
+			productReference = F4A57F4D1AA7562C00CD8713 /* oddEven */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A57F451AA7562C00CD8713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Simon Hewitt";
+				TargetAttributes = {
+					F4A57F4C1AA7562C00CD8713 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F4A57F481AA7562C00CD8713 /* Build configuration list for PBXProject "oddEven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4A57F441AA7562C00CD8713;
+			productRefGroup = F4A57F4E1AA7562C00CD8713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A57F4C1AA7562C00CD8713 /* oddEven */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A57F491AA7562C00CD8713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41575271AA79CFF007698E3 /* oddEvenSort.cpp in Sources */,
+				F41575241AA7982D007698E3 /* oddEvenSort.cl in Sources */,
+				F482FE261AA7572600008E79 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4A57F521AA7562C00CD8713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4A57F531AA7562C00CD8713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4A57F551AA7562C00CD8713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4A57F561AA7562C00CD8713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A57F481AA7562C00CD8713 /* Build configuration list for PBXProject "oddEven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A57F521AA7562C00CD8713 /* Debug */,
+				F4A57F531AA7562C00CD8713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A57F541AA7562C00CD8713 /* Build configuration list for PBXNativeTarget "oddEven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A57F551AA7562C00CD8713 /* Debug */,
+				F4A57F561AA7562C00CD8713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A57F451AA7562C00CD8713 /* Project object */;
+}
